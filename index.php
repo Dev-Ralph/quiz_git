@@ -12,7 +12,14 @@
   <link href="vendor/fonts/css/solid.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container-fluid pt-5 mt-5">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="form-group">
+      <input type="text" id="aname" name="aname" placeholder="Enter Your Name" class="form-control col ml-5" required autofocus>
+    </div>
+    </div>
+  </div>
+  <div class="container-fluid pt-4">
             <div class="row justify-content-center">
               <div class="col-md-6">
                 <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -53,7 +60,7 @@
                   </div>
                 </div>
 
-                <div class="container-fluid pt-5 mt-5">
+                <div class="container-fluid pt-4">
                           <div class="row justify-content-center">
                             <div class="col-md-6">
                               <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -94,7 +101,8 @@
                                 </div>
                               </div>
 
-                              <div class="container-fluid pt-5 mt-5">
+
+                              <div class="container-fluid pt-4">
                                         <div class="row justify-content-center">
                                           <div class="col-md-6">
                                             <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -135,7 +143,7 @@
                                               </div>
                                             </div>
 
-                                            <div class="container-fluid pt-5 mt-5">
+                                            <div class="container-fluid pt-4">
                                                       <div class="row justify-content-center">
                                                         <div class="col-md-6">
                                                           <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -176,7 +184,7 @@
                                                             </div>
                                                           </div>
 
-                                                          <div class="container-fluid pt-5 mt-5">
+                                                          <div class="container-fluid pt-4">
                                                                     <div class="row justify-content-center">
                                                                       <div class="col-md-6">
                                                                         <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -216,7 +224,6 @@
                                                                             </div>
                                                                           </div>
                                                                         </div>
-
 </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
