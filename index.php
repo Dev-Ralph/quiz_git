@@ -6,35 +6,217 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title></title>
   <link rel="stylesheet" href="vendor/css/bootstrap.css">
-<<<<<<< HEAD
   <link rel="stylesheet" href="resource/css/style.css">
   <link href="vendor/fonts/css/fontawesome.css" rel="stylesheet">
   <link href="vendor/fonts/css/brands.css" rel="stylesheet">
   <link href="vendor/fonts/css/solid.css" rel="stylesheet">
 </head>
 <body>
+  <div class="container-fluid pt-5 mt-5">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #1</h2></div>
+                      <div class="card-body">
+                        <form method="GET" action="">
+                          <div class="form-group row">
+                            <div class="col-md-12">
+                          <h2 class="col" style="font-size: 20px;">Which one is the first web browser invented in 1990?</h2>
+                            </div>
+                          </div>
+                          <div class="form-group row pl-5">
+                          <div class="col-md-6">
+                          <input type="radio" name="a1" value="A"> Internet Explorer
+                          </div>
+                          </div>
+                          <div class="form-group row pl-5">
+                          <div class="col-md-6">
+                          <input type="radio" name="a1" value="B"> Mosaic
+                          </div>
+                          </div>
+                          <div class="form-group row pl-5">
+                          <div class="col-md-6">
+                          <input type="radio" name="a1" value="C"> Mozilla
+                          </div>
+                          </div>
+                          <div class="form-group row pl-5">
+                          <div class="col-md-6">
+                          <input type="radio" name="a1" value="D"> Nexus
+                          </div>
+                          </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-=======
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
-  <div class="col-md-6">
-    <h2 style="color: black;">QUIZ QUESTIONS</h2>
-      <input type="text" name="q1">
-      <div class="buttons">
-        <input type="radio" name="q1">A
-      </div>
-        <div class="buttons">
-          <input type="radio" name="q1">B
-        </div>
-        <div class="buttons">
-          <input type="radio" name="q1">C
-        </div>
-          <div class="buttons">
-            <input type="radio" name="q1">D
-          </div>
-        </div>
->>>>>>> de1c4e22ddaae02ff79945d55dcc68e64fe58c1b
+                <div class="container-fluid pt-5 mt-5">
+                          <div class="row justify-content-center">
+                            <div class="col-md-6">
+                              <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                              -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                              -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                  <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #2</h2></div>
+                                    <div class="card-body">
+                                      <form method="GET" action="">
+                                        <div class="form-group row">
+                                          <div class="col-md-12">
+                                        <h2 class="col" style="font-size: 20px;">First computer virus is known as?</h2>
+                                          </div>
+                                        </div>
+                                        <div class="form-group row pl-5">
+                                        <div class="col-md-6">
+                                        <input type="radio" name="a1" value="A"> Rabbit
+                                        </div>
+                                        </div>
+                                        <div class="form-group row pl-5">
+                                        <div class="col-md-6">
+                                        <input type="radio" name="a1" value="B"> Creeper Virus
+                                        </div>
+                                        </div>
+                                        <div class="form-group row pl-5">
+                                        <div class="col-md-6">
+                                        <input type="radio" name="a1" value="C"> Elk Cloner
+                                        </div>
+                                        </div>
+                                        <div class="form-group row pl-5">
+                                        <div class="col-md-6">
+                                        <input type="radio" name="a1" value="D"> SCA Virus
+                                        </div>
+                                        </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="container-fluid pt-5 mt-5">
+                                        <div class="row justify-content-center">
+                                          <div class="col-md-6">
+                                            <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                                <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #3</h2></div>
+                                                  <div class="card-body">
+                                                    <form method="GET" action="">
+                                                      <div class="form-group row">
+                                                        <div class="col-md-12">
+                                                      <h2 class="col" style="font-size: 20px;">Firewall in computer is used for?</h2>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group row pl-5">
+                                                      <div class="col-md-6">
+                                                      <input type="radio" name="a1" value="A"> Security
+                                                      </div>
+                                                      </div>
+                                                      <div class="form-group row pl-5">
+                                                      <div class="col-md-6">
+                                                      <input type="radio" name="a1" value="B"> Data Transmission
+                                                      </div>
+                                                      </div>
+                                                      <div class="form-group row pl-5">
+                                                      <div class="col-md-6">
+                                                      <input type="radio" name="a1" value="C"> Authentication
+                                                      </div>
+                                                      </div>
+                                                      <div class="form-group row pl-5">
+                                                      <div class="col-md-6">
+                                                      <input type="radio" name="a1" value="D"> Monitoring
+                                                      </div>
+                                                      </div>
+                                                      </form>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="container-fluid pt-5 mt-5">
+                                                      <div class="row justify-content-center">
+                                                        <div class="col-md-6">
+                                                          <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                          -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                          -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                                              <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #4</h2></div>
+                                                                <div class="card-body">
+                                                                  <form method="GET" action="">
+                                                                    <div class="form-group row">
+                                                                      <div class="col-md-12">
+                                                                    <h2 class="col" style="font-size: 20px;">Which of the following is not an operating system?</h2>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="form-group row pl-5">
+                                                                    <div class="col-md-6">
+                                                                    <input type="radio" name="a1" value="A"> DOS
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="form-group row pl-5">
+                                                                    <div class="col-md-6">
+                                                                    <input type="radio" name="a1" value="B"> Mac
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="form-group row pl-5">
+                                                                    <div class="col-md-6">
+                                                                    <input type="radio" name="a1" value="C"> C
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="form-group row pl-5">
+                                                                    <div class="col-md-6">
+                                                                    <input type="radio" name="a1" value="D"> Linux
+                                                                    </div>
+                                                                    </div>
+                                                                    </form>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+
+                                                          <div class="container-fluid pt-5 mt-5">
+                                                                    <div class="row justify-content-center">
+                                                                      <div class="col-md-6">
+                                                                        <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                                                            <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #5</h2></div>
+                                                                              <div class="card-body">
+                                                                                <form method="GET" action="">
+                                                                                  <div class="form-group row">
+                                                                                    <div class="col-md-12">
+                                                                                  <h2 class="col" style="font-size: 20px;">Which of the following is not a database management software?</h2>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div class="form-group row pl-5">
+                                                                                  <div class="col-md-6">
+                                                                                  <input type="radio" name="a1" value="A"> MySQL
+                                                                                  </div>
+                                                                                  </div>
+                                                                                  <div class="form-group row pl-5">
+                                                                                  <div class="col-md-6">
+                                                                                  <input type="radio" name="a1" value="B"> Oracle
+                                                                                  </div>
+                                                                                  </div>
+                                                                                  <div class="form-group row pl-5">
+                                                                                  <div class="col-md-6">
+                                                                                  <input type="radio" name="a1" value="C"> Sybase
+                                                                                  </div>
+                                                                                  </div>
+                                                                                  <div class="form-group row pl-5">
+                                                                                  <div class="col-md-6">
+                                                                                  <input type="radio" name="a1" value="D"> COBOL
+                                                                                  </div>
+                                                                                  </div>
+                                                                                  </form>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+
 </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
