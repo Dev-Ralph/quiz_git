@@ -69,22 +69,22 @@
                                         </div>
                                         <div class="form-group row pl-5">
                                         <div class="col-md-6">
-                                        <input type="radio" name="a1" value="A"> Rabbit
+                                        <input type="radio" name="a2" value="A"> Rabbit
                                         </div>
                                         </div>
                                         <div class="form-group row pl-5">
                                         <div class="col-md-6">
-                                        <input type="radio" name="a1" value="B"> Creeper Virus
+                                        <input type="radio" name="a2" value="B"> Creeper Virus
                                         </div>
                                         </div>
                                         <div class="form-group row pl-5">
                                         <div class="col-md-6">
-                                        <input type="radio" name="a1" value="C"> Elk Cloner
+                                        <input type="radio" name="a2" value="C"> Elk Cloner
                                         </div>
                                         </div>
                                         <div class="form-group row pl-5">
                                         <div class="col-md-6">
-                                        <input type="radio" name="a1" value="D"> SCA Virus
+                                        <input type="radio" name="a2" value="D"> SCA Virus
                                         </div>
                                         </div>
                                         </form>
@@ -110,22 +110,22 @@
                                                       </div>
                                                       <div class="form-group row pl-5">
                                                       <div class="col-md-6">
-                                                      <input type="radio" name="a1" value="A"> Security
+                                                      <input type="radio" name="a3" value="A"> Security
                                                       </div>
                                                       </div>
                                                       <div class="form-group row pl-5">
                                                       <div class="col-md-6">
-                                                      <input type="radio" name="a1" value="B"> Data Transmission
+                                                      <input type="radio" name="a3" value="B"> Data Transmission
                                                       </div>
                                                       </div>
                                                       <div class="form-group row pl-5">
                                                       <div class="col-md-6">
-                                                      <input type="radio" name="a1" value="C"> Authentication
+                                                      <input type="radio" name="a3" value="C"> Authentication
                                                       </div>
                                                       </div>
                                                       <div class="form-group row pl-5">
                                                       <div class="col-md-6">
-                                                      <input type="radio" name="a1" value="D"> Monitoring
+                                                      <input type="radio" name="a3" value="D"> Monitoring
                                                       </div>
                                                       </div>
                                                       </form>
@@ -151,22 +151,22 @@
                                                                     </div>
                                                                     <div class="form-group row pl-5">
                                                                     <div class="col-md-6">
-                                                                    <input type="radio" name="a1" value="A"> DOS
+                                                                    <input type="radio" name="a4" value="A"> DOS
                                                                     </div>
                                                                     </div>
                                                                     <div class="form-group row pl-5">
                                                                     <div class="col-md-6">
-                                                                    <input type="radio" name="a1" value="B"> Mac
+                                                                    <input type="radio" name="a4" value="B"> Mac
                                                                     </div>
                                                                     </div>
                                                                     <div class="form-group row pl-5">
                                                                     <div class="col-md-6">
-                                                                    <input type="radio" name="a1" value="C"> C
+                                                                    <input type="radio" name="a4" value="C"> C
                                                                     </div>
                                                                     </div>
                                                                     <div class="form-group row pl-5">
                                                                     <div class="col-md-6">
-                                                                    <input type="radio" name="a1" value="D"> Linux
+                                                                    <input type="radio" name="a4" value="D"> Linux
                                                                     </div>
                                                                     </div>
                                                                     </form>
@@ -192,22 +192,22 @@
                                                                                   </div>
                                                                                   <div class="form-group row pl-5">
                                                                                   <div class="col-md-6">
-                                                                                  <input type="radio" name="a1" value="A"> MySQL
+                                                                                  <input type="radio" name="a5" value="A"> MySQL
                                                                                   </div>
                                                                                   </div>
                                                                                   <div class="form-group row pl-5">
                                                                                   <div class="col-md-6">
-                                                                                  <input type="radio" name="a1" value="B"> Oracle
+                                                                                  <input type="radio" name="a5" value="B"> Oracle
                                                                                   </div>
                                                                                   </div>
                                                                                   <div class="form-group row pl-5">
                                                                                   <div class="col-md-6">
-                                                                                  <input type="radio" name="a1" value="C"> Sybase
+                                                                                  <input type="radio" name="a5" value="C"> Sybase
                                                                                   </div>
                                                                                   </div>
                                                                                   <div class="form-group row pl-5">
                                                                                   <div class="col-md-6">
-                                                                                  <input type="radio" name="a1" value="D"> COBOL
+                                                                                  <input type="radio" name="a5" value="D"> COBOL
                                                                                   </div>
                                                                                   </div>
                                                                                   </form>
