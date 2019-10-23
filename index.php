@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Login</title>
   <link rel="stylesheet" href="vendor/css/bootstrap.css">
-  <link rel="stylesheet" href="resource/css/login.css">
+  <link rel="stylesheet" href="resource/css/style.css">
   <link href="vendor/fonts/css/fontawesome.css" rel="stylesheet">
   <link href="vendor/fonts/css/brands.css" rel="stylesheet">
   <link href="vendor/fonts/css/solid.css" rel="stylesheet">
 </head>
 <body>
-  <!-- start here -->
+
 </body>
 </html>
   <script src="vendor/js/jquery.min.js"></script>
