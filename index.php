@@ -18,8 +18,23 @@ $quiz->check();
   <link href="vendor/fonts/css/brands.css" rel="stylesheet">
   <link href="vendor/fonts/css/solid.css" rel="stylesheet">
 </head>
+<style media="screen">
+body{
+  background-color: rgb(252, 252, 252);
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
 <body>
   <div class="container pt-5">
+    <div class="row justify-content-center">
+    <h1 class="pb-4"style="color:#d75093">Online Quiz</h1>
+  </div>
     <div class="row">
       <div class="form-group">
       <input type="text" id="aname" name="aname" placeholder="Enter Your Name" class="form-control col ml-5" required autofocus>
@@ -29,7 +44,7 @@ $quiz->check();
   <div class="container-fluid pt-4">
             <div class="row justify-content-center">
               <div class="col-md-6">
-                <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                <div class="card zoom" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                     <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #1</h2></div>
@@ -67,10 +82,10 @@ $quiz->check();
                   </div>
                 </div>
 
-                <div class="container-fluid pt-4">
+                <div class="container-fluid pt-5">
                           <div class="row justify-content-center">
                             <div class="col-md-6">
-                              <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                              <div class="card zoom" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                               -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                               -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                                   <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #2</h2></div>
@@ -109,10 +124,10 @@ $quiz->check();
                               </div>
 
 
-                              <div class="container-fluid pt-4">
+                              <div class="container-fluid pt-5">
                                         <div class="row justify-content-center">
                                           <div class="col-md-6">
-                                            <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            <div class="card zoom" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                                             -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                                             -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                                                 <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #3</h2></div>
@@ -150,10 +165,10 @@ $quiz->check();
                                               </div>
                                             </div>
 
-                                            <div class="container-fluid pt-4">
+                                            <div class="container-fluid pt-5">
                                                       <div class="row justify-content-center">
                                                         <div class="col-md-6">
-                                                          <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                          <div class="card zoom" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                                                           -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                                                           -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                                                               <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #4</h2></div>
@@ -191,10 +206,10 @@ $quiz->check();
                                                             </div>
                                                           </div>
 
-                                                          <div class="container-fluid pt-4">
+                                                          <div class="container-fluid pt-5 pb-5">
                                                                     <div class="row justify-content-center">
                                                                       <div class="col-md-6">
-                                                                        <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                        <div class="card zoom" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                                                                         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                                                                         -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                                                                             <div class="card-header text-white bg-white"><h2 style="color:#d75093">Question #5</h2></div>
