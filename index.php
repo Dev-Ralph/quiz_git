@@ -1,3 +1,10 @@
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'].'/quiz_git/resource/php/quiz.php';
+if (isset($_POST['submit'])) {
+$quiz = new quiz($_POST['a1'],$_POST['a2'],$_POST['a3'],$_POST['a4'],$_POST['a5'],$_POST['aname']);
+$quiz->check();
+}
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
