@@ -14,7 +14,7 @@ foreach ($rows as $row) {
   echo "<div class='container-fluid pt-4'>";
   echo "<div class='row justify-content-center'>";
   echo " <div class='col-md-6'>";
-  echo "<div class='card' style='box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  echo "<div class='card zoom' style='box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'>";
   echo "<div class='card-header text-white bg-white'><h2 style='color:#d75093'>Question</h2></div>";
@@ -39,7 +39,7 @@ foreach ($rows as $row) {
       echo "</div>";
       echo "</div>";
       echo "<div class='form-group row pl-5'>";
-      echo "<div class='col-md-6'>";
+      echo "<div class='col-md-6 pb-3'>";
       echo "<input type='radio' name='a$row->id' value='D'> $row->choice4";
       echo "</div>";
       echo "</div>";

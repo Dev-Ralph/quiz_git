@@ -32,10 +32,13 @@ body{
 </style>
 <body>
   <form action="" method="POST">
-  <div class="container-fluid pt-5">
+  <div class="container pt-5">
     <div class="row justify-content-center">
-      <div class="form-group">
-      <input type="text" id="aname" name="aname" placeholder="Enter Your Name" class="form-control col ml-5" required autofocus>
+      <h1 class="pb-2" style='color:#d75093'>Online Quiz</h1>
+    </div>
+    <div class="row">
+      <div class="form-group col-md-6">
+      <input type="text" id="aname" name="aname" placeholder="Enter Your Name" class="form-control col-6 ml-5" required autofocus>
     </div>
     </div>
   </div>
@@ -49,7 +52,7 @@ body{
   <div class="container-fluid pt-5">
     <div class="row justify-content-center">
       <div class="form-group">
-      <input type="submit" name="submit" value="Submit" class="form-control col ml-5" required autofocus>
+      <input type="submit" name="submit" value="Submit" class="btn btn-primary form-control col mb-5" required autofocus>
     </div>
     </div>
   </div>
