@@ -18,6 +18,18 @@ $quiz->check();
   <link href="vendor/fonts/css/brands.css" rel="stylesheet">
   <link href="vendor/fonts/css/solid.css" rel="stylesheet">
 </head>
+<style media="screen">
+body{
+  background-color: rgb(252, 252, 252);
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
 <body>
   <form action="" method="POST">
   <div class="container-fluid pt-5">
