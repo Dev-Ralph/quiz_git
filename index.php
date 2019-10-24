@@ -43,13 +43,11 @@ body{
       <a href="view.php" class="ml-auto">View Scores</a>
     </div>
   </div>
-
-  <?php
-  require_once $_SERVER['DOCUMENT_ROOT'].'/quiz_git/resource/php/sample.php';
-  $sample = new sample;
-  $sample->disp();
-
-  ?>
+    <?php
+    require_once $_SERVER['DOCUMENT_ROOT'].'/quiz_git/resource/php/sample.php';
+    $sample = new sample;
+    $sample->disp();
+    ?>
   <div class="container-fluid pt-5">
     <div class="row justify-content-center">
       <div class="form-group">
